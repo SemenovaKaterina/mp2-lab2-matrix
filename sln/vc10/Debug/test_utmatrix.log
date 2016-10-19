@@ -1,0 +1,21 @@
+﻿Build started 19.10.2016 18:49:49.
+     1>Project "C:\Users\kate\mp2-lab2-matrix\sln\vc10\test_utmatrix.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (gtest.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../gtest /I../../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\test\test_tvector.cpp
+         test_tvector.cpp
+     1>Project "C:\Users\kate\mp2-lab2-matrix\sln\vc10\test_utmatrix.vcxproj" (1) is building "C:\Users\kate\mp2-lab2-matrix\sln\vc10\gtest.vcxproj" (2:3) on node 2 (GetResolvedLinkLibs target(s)).
+     2>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (test_utmatrix.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     2>Done Building Project "C:\Users\kate\mp2-lab2-matrix\sln\vc10\gtest.vcxproj" (GetResolvedLinkLibs target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kate\mp2-lab2-matrix\sln\vc10\Debug\test_utmatrix.exe" /INCREMENTAL /NOLOGO /LIBPATH:Debug gtest.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\kate\mp2-lab2-matrix\sln\vc10\Debug\test_utmatrix.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kate\mp2-lab2-matrix\sln\vc10\Debug\test_utmatrix.lib" /MACHINE:X86 /SAFESEH Debug\test_main.obj
+         Debug\test_tmatrix.obj
+         Debug\test_tvector.obj
+         "C:\Users\kate\mp2-lab2-matrix\sln\vc10\Debug\gtest.lib"
+     1>test_main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         test_utmatrix.vcxproj -> C:\Users\kate\mp2-lab2-matrix\sln\vc10\Debug\test_utmatrix.exe
+     1>Done Building Project "C:\Users\kate\mp2-lab2-matrix\sln\vc10\test_utmatrix.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.39
