@@ -1,0 +1,13 @@
+﻿Build started 19.10.2016 17:39:17.
+     1>Project "D:\Progrr\mp2-lab2-matrix\sln\vc10\test_utmatrix.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (gtest.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>Project "D:\Progrr\mp2-lab2-matrix\sln\vc10\test_utmatrix.vcxproj" (1) is building "D:\Progrr\mp2-lab2-matrix\sln\vc10\gtest.vcxproj" (2:3) on node 2 (GetResolvedLinkLibs target(s)).
+     2>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (test_utmatrix.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     2>Done Building Project "D:\Progrr\mp2-lab2-matrix\sln\vc10\gtest.vcxproj" (GetResolvedLinkLibs target(s)).
+     1>Link:
+         test_utmatrix.vcxproj -> D:\Progrr\mp2-lab2-matrix\sln\vc10\Release\test_utmatrix.exe
+     1>Done Building Project "D:\Progrr\mp2-lab2-matrix\sln\vc10\test_utmatrix.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.10
